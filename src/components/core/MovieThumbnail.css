@@ -1,0 +1,19 @@
+.movie__thumbnail {
+  border-radius: 24px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.movie__thumbnail img {
+  width: 100%;
+}
+
+.movie__thumbnail--square {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: none;
+}

@@ -1,0 +1,26 @@
+.sidebar {
+  width: 320px;
+  margin: 2rem 0;
+  height: calc(100vh - 4rem);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.sidebar--closed {
+  margin-right: -300px;
+  cursor: pointer;
+}
+
+.sidebar--closed:hover > * {
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.sidebar__close {
+  position: fixed;
+  right: 1rem;
+  top: 3rem;
+}
+
+.sidebar--closed .sidebar__close {
+  display: none;
+}

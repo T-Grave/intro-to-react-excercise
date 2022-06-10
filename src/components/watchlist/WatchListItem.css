@@ -1,0 +1,26 @@
+.watchlist__movie__item__score {
+  flex: 1;
+  align-self: center;
+  text-align: right;
+}
+
+/* Watchlist */
+
+.watchlist__movies__item {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.watchlist__movie__item__img {
+  margin-right: 1rem;
+}
+
+.watchlist__movie__item__title {
+  margin: 0.5rem 0;
+}
+
+.watchlist__movie__item__genre {
+  margin: 0;
+  color: lightgray;
+}

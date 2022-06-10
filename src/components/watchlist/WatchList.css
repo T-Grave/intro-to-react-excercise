@@ -1,0 +1,22 @@
+.watchlist {
+  background: #333;
+  color: white;
+  height: calc(100vh - 4rem);
+  position: fixed;
+  width: 320px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.watchlist__title {
+  margin: 0 0 1rem;
+}
+
+.watchlist__movies {
+  list-style: none;
+  padding: 0;
+  overflow-y: hidden;
+  height: 90%;
+}
